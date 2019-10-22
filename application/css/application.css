@@ -1,0 +1,199 @@
+body{
+  background-image: url(bg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: relative;
+  font: arial;
+  height: 100%;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  height: 20px;
+}
+
+footer .footer_text{
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 0px 30px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo{
+  height: auto;
+  color: #fff;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, .44);
+  text-transform: uppercase;
+  width: auto;
+  padding: 10px;
+  margin: auto;
+}
+
+.ipbLogo{
+  width: 50%;
+  padding: auto;
+  margin: auto;
+  background-position: left;
+  background-size: cover;
+  }
+
+.initialMenu table{
+  text-align: center;
+  background: #666;
+  width: 75%;
+  border-radius: 4px;
+  margin: auto;
+  position: relative;
+  padding: auto;
+}
+.initialMenu table button{
+  text-align: center;
+  background: #666;
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.initialMenu table button:hover{
+  color: #ff9308;
+}
+.initialMenu table button:active{
+
+}
+
+.content{
+  text-align: center;
+  width: 75%;
+  border-radius: 2px;
+  margin: 20px auto;
+  background: #fff;
+  position: relative;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content #index{
+  background-image: linear-gradient(to right, rgba(58, 96, 112, 1), rgba(58, 96, 112, 0));
+  border-radius: 4px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  height: 400px;
+}
+
+.content #sobre #sobre1{
+	background: #3a6070;
+	color: white;
+	border-radius: 4px;
+	padding: 60px;
+}
+
+.content #contact-form{
+  background: #3a6070;
+	color: white;
+	border-radius: 4px;
+	padding: 50px;
+}
+
+form .submit{
+  font-weight: bold;
+  padding: center;
+  margin: left;
+  font-size: 12px;
+  width: auto;
+}
+
+.content #status table{
+  border-collapse: collapse;
+	position: center;
+	margin: auto;
+}
+
+.content #status table th{
+  text-transform: uppercase;
+  background-color: #3a6070;
+  color: #fff;
+  height: 20px;
+	text-align: center;
+  color: white;
+}
+
+.content #status table td{
+  height: 15px;
+  border: 1px solid #e3e3e3;
+  padding: 4px 8px;
+}
+
+.content #status table tr:nth-child(odd) td{
+  background-color: #e7edf0;
+}
+
+.content #container{
+  text-align: right;
+  padding-right: 7.5%;
+  margin: auto;
+}
+
+.content #historico{
+  padding: 0px 30px 5px 30px;
+}
+
+.content #historico table{
+  border-collapse: collapse;
+	position: center;
+	margin: auto;
+}
+
+.content #historico table th{
+	text-transform: uppercase;
+  background-color: #3a6070;
+  color: #fff;
+	font-size: 10px;
+	text-align: center;
+  color: white;
+  border: 1px solid #bdbdbd;
+  height: 5px;
+}
+
+.content #historico table td{
+  border: 1px solid #e3e3e3;
+  padding: 8px;
+}
+
+.content #historico table tr:nth-child(odd) td{
+  background-color: #e7edf0;
+}
+
+.content #historico table tr:hover td{
+  background-color: #cccccc;
+}
+
+.content #projecoes{
+  margin: auto;
+  width: 80%;
+  background-color: gray;
+}
